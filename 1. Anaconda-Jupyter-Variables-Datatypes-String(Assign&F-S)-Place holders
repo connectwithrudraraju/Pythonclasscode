@@ -1,1 +1,67 @@
+######################## Hello World ##############################################
 Import Sys
+Print ("Hello World, Welcome to Python tutorial")             ## Hello World, WtPt
+
+######################## Variable (Sample idea) ###################################
+A = 10
+B = 20
+X+Y                                                           ## 30
+
+######################## Variable w/ example
+Message = "Hello Python"
+Print(message)                                                ## Hello Python
+
+first name ="Raj"                              ################# Can't declare a space while giving variable name
+first_name ="Raj"    
+print (first_name)                                            ## Raj
+
+######################## String ##################################################
+#Series of Characters
+#Immutable data type
+#Anything inside a Quote is considered a STRING
+
+name = "Mother teresa"
+print(name)                                                   ## Mother teresa
+###################### Title output is given as Camel Case
+print(name.title())                                           ## Mother Teresa
+print(name.lower())                                           ## mother teresa
+print(name.upper())                                           ## MOTHER TERESA
+
+
+##################### FUNCTION using Variable in String
+first_name = "Raj"
+last_name =  "Rudra"
+
+############ F-String 
+### We can give/assign references to other variables
+full_name = f"{first_name}{last_name}"
+print(full_name)                                              ## Raj Rudra
+
+######################## Tab and New Lines #######################################
+#Adding "Whitespace" to strings with tabs and new lines
+#Any non printing character
+print("Python")
+print("Python ")                                              ##Python""  - Detech the character "whitespace"
+print("\t Pyhton")                                            ##<Tab>Python - approx 4-5 spaces
+#Strings can be declared as  doube/single/triple quotes
+
+################# Include "Asfastrape" in between string value
+#Use double quotes to include afastraphe
+Sujith = 'Raj's Son"
+
+### Print the output on NEW LINE (/n)
+Print ("Languages : /n Python /n Java"  
+output ############
+Launguage :
+Python
+Java
+
+### Using Strings
+#Eliminate/Strip the Whitespaces
+my_name = " Raj "
+print(my_name.rstring())                                      ## Raj---- No string on the right side
+print(my_name.lstring())                                      ##Raj ----- No string on the Left side
+
+
+
+##################################################################################################################
