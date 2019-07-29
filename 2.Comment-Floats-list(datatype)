@@ -1,0 +1,6 @@
+#################################Comment##################################
+# Anything after Hash considered as comment in a line
+# """Comment""" -> To comment consecutive lines use triple quotes
+
+
+############################Data types(numbers/integers/floats)############
