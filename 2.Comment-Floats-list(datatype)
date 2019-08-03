@@ -3,4 +3,37 @@
 # """Comment""" -> To comment consecutive lines use triple quotes
 
 
-############################Data types(numbers/integers/floats)############
+############################Numeric Data types(integers/floats)############
+# Numeric data types are as below
+########### Integers #############
+a = 10
+b = 20
+c = a + b
+Print (c)                        ########################## 30
+
+########### Float ############### Decalring the values in decimals
+m = 1   #------------- Integers
+n = 0.2 #------------- Float
+print(m+n)                       ########################## 1.2
+
+
+############################# Constants ##############################
+#Constant is a python, like a variable whose value stays the same throughout in python
+#We can declare the constant variable in CAPITAL letters
+max_connections = 1000
+print(max_connections)           ########################## 1000
+
+
+######################### List - Datatype ######################################
+#List is mutable datatype
+#List is collection of items in particular order
+#Define a list with "[]"
+bikes = ['pulsar','yamaha','rx100','rajdoot']
+print(bikes)                     ###########################'pulsar','yamaha','rx100','rajdoot'
+#How to print a individual element form a list
+#With help of indexing
+#From where index will start, vlaues starts as "0"
+print(bikes[1])                  ########################## yamaha
+print(bikes[3].upper)            ########################## RAJDOOT
+
+ 
